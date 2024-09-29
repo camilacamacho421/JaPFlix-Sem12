@@ -1,0 +1,100 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+/* ESTILO NETFLIX */
+
+body {
+    font-family: 'Arial', sans-serif; /* Fuente básica */
+}
+
+.list-group-item {
+    background-color: #7a7777; /* Fondo oscuro para los elementos de la lista */
+    border: none; /* Sin bordes */
+    margin-bottom: 1rem; /* Espacio entre elementos */
+    padding: 1rem; /* Espacio interno */
+}
+
+.btn-primary {
+    background-color: #E50914; /* Botón rojo */
+    border: none; /* Sin bordes */
+}
+
+.btn-primary:hover {
+    background-color: #f13e44; /* Color al pasar */
+}
+
+.checked{
+    color: orange;
+}
+
+.nochecked {
+    color: rgb(186, 186, 186); /* Estrellas vacías en gris */
+}
+
+input[type="search"] {
+    background-color: #555; /* Fondo del input */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+}
+
+.btn-info {
+    background-color: #E50914; /* Estilo similar al botón de Netflix */
+    color: white;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro y semi-transparente */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    z-index: 1000; /* Asegurarse de que esté en la parte superior */
+}
+
+#detalles {
+    background-color: #333; /* Fondo del contenedor */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 300px; /* Ancho fijo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+h4, h5 {
+    margin: 0; /* Eliminar márgenes */
+}
+
+.detalles-adicionales {
+    background-color: #444; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    margin-top: 10px; /* Espacio superior */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra */
+    transition: all 0.3s ease; /* Transición suave */
+}
